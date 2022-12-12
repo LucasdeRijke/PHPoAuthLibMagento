@@ -3,7 +3,7 @@
 namespace OAuth\Common\Http\Client;
 
 /**
- * Abstract HTTP client.
+ * Abstract HTTP client
  */
 abstract class AbstractClient implements ClientInterface
 {
@@ -23,7 +23,7 @@ abstract class AbstractClient implements ClientInterface
     protected $timeout = 15;
 
     /**
-     * Creates instance.
+     * Creates instance
      *
      * @param string $userAgent The UA string the client will use
      */
@@ -59,14 +59,15 @@ abstract class AbstractClient implements ClientInterface
     /**
      * @param array $headers
      */
-    public function normalizeHeaders($headers): array
+    public function normalizeHeaders(&$headers)
     {
-        $normalizeHeaders = [];
-        foreach ($headers as $key => $val) {
-            $val = ucfirst(strtolower($key)) . ': ' . $val;
-            $normalizeHeaders[$key] = $val;
-        }
-
-        return $normalizeHeaders;
+        // Normalize headers
+        array_walk(
+            $headers,
+            function (&$val, &$key) {
+                $key = ucfirst(strtolower($key));
+                $val = ucfirst(strtolower($key)) . ': ' . $val;
+            }
+        );
     }
 }
