@@ -1,4 +1,4 @@
-Forked library that works as a replacement for https://github.com/daviddesberg/PHPoAuthLib. Just follow the magento oauth devdoc for the extra files needed https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/.
+Forked library that works as a replacement for this [library](https://github.com/daviddesberg/PHPoAuthLib). Just follow the magento oauth [devdocs]( https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) for the extra files needed.
 
 
 
