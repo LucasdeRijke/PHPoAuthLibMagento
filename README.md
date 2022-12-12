@@ -1,3 +1,7 @@
+Forked library that works as a replacement for https://github.com/daviddesberg/PHPoAuthLib. Just follow the magento oauth devdoc for the extra files needed.
+
+
+
 PHPoAuthLib
 ===========
 **NOTE: I'm looking for someone who could help to maintain this package alongside me, just because I don't have a ton of time to devote to it. However, I'm still going to keep trying to pay attention to PRs, etc.**
