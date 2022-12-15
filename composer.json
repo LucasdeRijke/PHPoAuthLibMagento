@@ -1,5 +1,5 @@
 {
-    "name": "lusitanian/oauth",
+    "name": "LucasdeRijke/PHPoAuthLibMagento",
     "description": "PHP 7.2 oAuth 1/2 Library",
     "keywords": ["oauth", "authentication", "authorization", "security"],
     "license": "MIT",
