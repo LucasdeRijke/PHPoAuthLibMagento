@@ -1,5 +1,5 @@
 {
-    "name": "LucasdeRijke/oauth",
+    "name": "lucasderijke/oauth",
     "description": "PHP 8.1 magento oauth library",
     "keywords": ["oauth", "authentication", "authorization", "security"],
     "license": "MIT",
