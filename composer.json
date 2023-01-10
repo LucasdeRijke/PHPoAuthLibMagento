@@ -1,6 +1,6 @@
 {
-    "name": "LucasdeRijke/PHPoAuthLibMagento",
-    "description": "PHP 7.2 oAuth 1/2 Library",
+    "name": "lusitanian/oauth",
+    "description": "PHP 8.1 magento oauth library",
     "keywords": ["oauth", "authentication", "authorization", "security"],
     "license": "MIT",
     "authors": [
