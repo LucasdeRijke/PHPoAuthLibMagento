@@ -29,9 +29,6 @@
             "./vendor/bin/php-cs-fixer fix --ansi"
         ]
     },
-    "require": {
-        "php": "^7.2 || 8.0.*"
-    },
     "require-dev": {
         "ext-dom": "*",
         "ext-curl": "*",
