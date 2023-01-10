@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@LucasdeRijke 
-daviddesberg
-/
-PHPoAuthLib
-Public
-Code
-Issues
-106
-Pull requests
-63
-Actions
-Projects
-Wiki
-Security
-Insights
-PHPoAuthLib/src/OAuth/OAuth1/Service/AbstractService.php /
-@tezrik
-tezrik Code style fix
-Latest commit 4848d70 on Jun 30, 2020
- History
- 15 contributors
-@PeeHaa@hannesvdvreken@thomaswelton@nathankot@TheSavior@flavioheleno@elliotchance@bencorlett@z38@khandieyea@nosnickid@tezrik
-313 lines (266 sloc)  9.54 KB
-
 <?php
 
 namespace OAuth\OAuth1\Service;
@@ -343,18 +311,3 @@ abstract class AbstractService extends BaseAbstractService implements ServiceInt
      */
     abstract protected function parseAccessTokenResponse($responseBody);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-PHPoAuthLib/AbstractService.php at master · daviddesberg/PHPoAuthLib
